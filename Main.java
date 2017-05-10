@@ -1,8 +1,5 @@
 package com.company;
 
-
-public class Main {
-
     /*
     n starts at 0, once recMethodCall is triggered it continues to call itself until the if condition is true,
     i.e n == 3, once n == 3 n is returned, the recursive method calls stop now because in java once something is returned
@@ -34,6 +31,8 @@ public class Main {
     it needs to be unwound equally. You can determine when it starts to "unwind" by triggering some condition i.e if(n==3)
 
      */
+
+public class Main {
     public int recMethodCall(int n){
         System.out.println(n);
         if (n == 3)
